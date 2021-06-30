@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Weather from "./Weather";
 
-function App() {
+import GitHubButton from 'react-github-btn';
+
+import "./App.css";
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Weather">
+      <div className="Container">
+        <Weather defaultCity="San Francisco"/>
+      </div>
+      <footer>
+      This project was coded by Daisy Guan and is open-sourced on <GitHubButton className="btn" href="https://github.com/hokkjkm/weather-react">Github</GitHubButton>
+      </footer>
     </div>
   );
 }
-
-export default App;

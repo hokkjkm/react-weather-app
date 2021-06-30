@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&family=Secular+One&family=Source+Sans+Pro&family=Permanent+Marker&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+.WeatherInfo .tempmax {
+  font-size: 28px;
+}
+
+.WeatherInfo ul {
+  font-family: "Righteous", cursive;
+}
+.WeatherInfo .cityName {
+  font-size: 38px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.WeatherInfo .tempDisplay {
+  font-size: 48px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.WeatherInfo .description {
+  text-transform: capitalize;
+}

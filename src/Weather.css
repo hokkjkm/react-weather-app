@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.Weather {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.Weather form {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.Weather .input {
+  vertical-align: middle;
+}
+.Weather .material-icons {
+  vertical-align: middle;
+}
