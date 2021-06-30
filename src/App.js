@@ -12,7 +12,7 @@ export default function App() {
         <Weather defaultCity="San Francisco"/>
       </div>
       <footer>
-      This project was coded by Daisy Guan and is open-sourced on <GitHubButton className="btn" href="https://github.com/hokkjkm/weather-react">Github</GitHubButton>
+      This project was coded by Daisy Guan and is open-sourced on <GitHubButton className="btn" href="https://github.com/hokkjkm/react-weather-app">Github</GitHubButton>
       </footer>
     </div>
   );
